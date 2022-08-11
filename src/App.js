@@ -1,9 +1,11 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Saludo from './Saludo';
 
 const App = () => {
   return (
     <div>
-      <h1>Hello world!</h1>
+      <Saludo contenido='My Friend!'></Saludo>
     </div>
   );
 };
