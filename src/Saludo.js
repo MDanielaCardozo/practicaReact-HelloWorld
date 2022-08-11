@@ -3,7 +3,7 @@ import React, {Fragment} from 'react';
 const Saludo = (props) => {
     return (
         <Fragment>
-            <h2 className='display-1 text-primary m-5'>Hello {props.contenido}</h2>
+            <h2 className='display-1 text-primary m-5'>Hello {props.contenido} {props.mensaje}</h2>
         </Fragment>
     );
 };

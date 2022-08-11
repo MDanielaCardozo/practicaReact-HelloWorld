@@ -10,7 +10,7 @@ const App = () => {
 
   return (
     <div className='container'>
-      <Saludo contenido='My Friend!'>{mensaje}</Saludo>
+      <Saludo contenido='My Friend!' mensaje={mensaje}></Saludo>
       <Button variant="outline-warning" onClick={()=>setMensaje('(from changed state)')}>Mensaje</Button>
     </div>
   );
